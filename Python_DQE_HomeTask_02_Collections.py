@@ -10,9 +10,6 @@ if key is only in one dict - take it as is,
 example:{'a_1': 5, 'b': 7, 'c': 35, 'g_2': 42}"""
 
 import random #import random module to generate random numbers and letters
-from collections import defaultdict #import defaultdict from collections module to create a dictionary with default values
-from itertools import count
-
 
 #Create random list of dictionaries
 def create_list_of_dicts():
@@ -20,7 +17,7 @@ def create_list_of_dicts():
     for i in range(random.randint(2, 10)): #random number of dictionaries from 2 to 10
         dict_of_numbers = {} #dictionary for the iteration
         for j in range(random.randint(1, 26)): #random number of keys using letters from a to z
-            dict_of_numbers[random.choice('abcdefghijklmnopqrstuvwxyz')] = random.randint(0, 100) #random letter key and random numeric value from 0 to 100
+            dict_of_numbers[random.choice('abcdefghijklmnopqrstuvwxyz')] = random.randint(0, 100) #random letter key from a to z and random numeric value from 0 to 100
             sorted_dict = {key: dict_of_numbers[key] for key in sorted(dict_of_numbers)} #sort the dictionary by keys
         list_of_dicts.append(sorted_dict) #adding the dictionary to the list
     return list_of_dicts #retunrning the list of dictionaries
@@ -35,23 +32,21 @@ sorted_keys = sorted(all_keys) #sort the keys
 #get the max value for each key and create a new key with the dictionary number
 for key in sorted_keys: #for each key in the sorted keys
     max_value = 0 #initialize the max value
-    occurrence = 0 #initialize the occurrence
     max_key = '' #initialize the max key
     for i, d in enumerate(dictionaries): #iterate the dictionaries
-        if key in d: #if the key is in the dictionary sort the max and get the index/number of the dictionary
+        if key in d: #if the key is in the dictionary get the index/number of the dictionary for the max value
             if d[key] > max_value: #if the value is greater than the max value
                 max_value = d[key] #set the max value
                 max_key = key #set the max key
                 max_i = i #set the dictionary number
     if max_value > 0: #if the max value is greater than 0
         for i, d in enumerate(dictionaries): #iterate the dictionaries
-            if i == max_i: #if this dictionary has the max value and key was found more than once
+            if i == max_i: #if this dictionary has the max value
                 d[key + '_' + str(i + 1)] = d.pop(key) #rename the key with the dictionary number
-            elif key in d : #remove the key from the other dictionaries and keep the unique without rename it
-                #if key in d: #if the key is in the dictionary
-                    d.pop(key) #remove the key to leave it just in the dictionary with the max value
+            elif key in d : #remove the key from the other dictionaries
+                d.pop(key) #remove the key to leave it just in the dictionary with the max value
 
-final_dictionary = {} #defaultdict(list) #initialize the final dictionary to combine the multiple dictionaries in one
+final_dictionary = {}  #initialize the final dictionary to combine the multiple dictionaries in one
 for d in dictionaries: #iterate the dictionaries
     for key, value in d.items(): #iterate the items in the dictionary
         if key in final_dictionary: #if the key already exist in the final/combined dictionary get the max value
