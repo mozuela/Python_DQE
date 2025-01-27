@@ -42,17 +42,21 @@ def get_last_words(text):#
                 last_words.append(words[-1]) #append the last word to the list for each sentence
     return last_words #return the list of last words
 
-non_breaking= re.sub(r'\xa0', '', inital_string) #removing non-breaking character/code
-sentences = non_breaking.split('\n') #splitting the text into sentences to normalize
-normalized_sentences = [sentence.strip().capitalize() for sentence in sentences] #capitalize each sentence
-normalized_text = ' \n'.join(normalized_sentences) #joining the sentences back together
-fixed_iz = normalized_text.replace(' iz ', ' is ') #replacing iz with is just when is followed by a space/it's a mistake
-last_words = get_last_words(fixed_iz) #get the last words of each sentence
-last_words_phrase = ' '.join(last_words)    #joining the last words together
-insert_index = fixed_iz.find(position_for_insert)+len(position_for_insert)+1 #find the position of the end of the "paragraph." sentence
-paragraph_with_last_words = fixed_iz[:insert_index] + last_words_phrase + fixed_iz[insert_index:] #insert the last words after the sentence ending in paragraph
-clean_multiline = re.sub(r'[ \t]+', ' ', paragraph_with_last_words)    #removing extra spaces and tabs
-clean_multiline = re.sub(r'\n\s*\n', '\n', clean_multiline) #removing extra new lines
+def clean_mul(text):
+    text = re.sub(r'\xa0', '', text) #removing non-breaking character/code
+    sentences = text.split('\n') #splitting the text into sentences to normalize
+    normalized_sentences = [sentence.strip().capitalize() for sentence in sentences] #capitalize each sentence
+    normalized_text = ' \n'.join(normalized_sentences) #joining the sentences back together
+    fixed_iz = normalized_text.replace(' iz ', ' is ') #replacing iz with is just when is followed by a space/it's a mistake
+    last_words = get_last_words(fixed_iz) #get the last words of each sentence
+    last_words_phrase = ' '.join(last_words)    #joining the last words together
+    insert_index = fixed_iz.find(position_for_insert)+len(position_for_insert)+1 #find the position of the end of the "paragraph." sentence
+    paragraph_with_last_words = fixed_iz[:insert_index] + last_words_phrase + fixed_iz[insert_index:] #insert the last words after the sentence ending in paragraph
+    clean_line = re.sub(r'[ \t]+', ' ', paragraph_with_last_words)    #removing extra spaces and tabs
+    clean_line = re.sub(r'\n\s*\n', '\n', clean_multiline) #removing extra new lines
+    return clean_line #return the cleaned text
+
+clean_multiline = clean_mul(inital_string) #cleaning the text
 
 count_spaces = count_whitespaces(clean_multiline) #counting all whitespaces
 print("Initial text: \n ", inital_string) #printing the initial text
