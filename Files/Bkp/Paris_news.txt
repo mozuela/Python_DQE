@@ -1,0 +1,6 @@
+News|Heavy rain expected tomorrow.|London|2023-10-16 09:15:00
+Private Ad|Apartment for rent in downtown.|2023-10-25|10
+Book Recommendation|1984|George Orwell|Dystopian|A chilling portrayal of totalitarianism.
+News|New museum opens in Paris.|Paris|2023-10-17 10:00:00
+Private Ad|Job opening for Python developer.|2023-11-15|30
+Book Recommendation|To Kill a Mockingbird|Harper Lee|Classic|A powerful story about racial injustice.

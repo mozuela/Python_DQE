@@ -13,33 +13,24 @@ from datetime import datetime #import datetime module to get the current date
 
 FILE_NAME = 'news_feed.txt' #file to write the news feed
 
-def add_news(): #function to add news
-    text = input('Enter the news text: ') #get the text for the news
-    city = input('Enter the city: ') #get the city for the
+def add_news(text, city): #function to add news
     publish_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S') #get the current date
     record =f'News--------------------------------------\n {text}\n in {city}\nPublish date:  {publish_date}\n\n' #record with a city news
     save_record(record) #save the record into the file
 
-def add_private_ad(): #function to add private ad
-    text = input('Enter the private ad text: ') #get the text for the private ad
-    expiration_date = input('Enter the expiration date (yyyy-mm-dd): ') #get the expiration date
-    expiration_date = datetime.strptime(expiration_date, '%Y-%m-%d') #convert the expiration date to datetime
+def add_private_ad(text, expiration_date ): #function to add private ad
     days_left = (expiration_date - datetime.now()).days #calculate the days left for the expiration date
     record = f'Private Ad--------------------------------\n {text}\nExpiration date: {expiration_date.strftime("%Y-%m-%d")}\nDays left: {days_left}\n\n' #record with a private ad
     save_record(record) #save the record into the file
 
-def add_book_recommendation(): #function to add book recommendation
-    title = input('Enter the book title: ') #get the title of the book
-    author = input('Enter the author: ') #get the author of the book
-    genre = input('Enter the genre: ') #get the genre of the book
-    reason = input('What do you love about this book?: ') #Why is so amazing this book?
+def add_book_recommendation(title, author, genre, reason): #function to add book recommendation
     record = f'Book Recommendation------------------------\n {title}\n by {author}\nGenre: {genre}\nReason: {reason}\n\n' #record with a book recommendation
     save_record(record) #save the record into the file
 
 def save_record(record): #function to save the record into the file
     with open(FILE_NAME, 'a') as file: #open the file in append mode
         file.write(record) #write the record into the file
-    print("Record saved successfully\n") #print message that the record was saved
+    #print("Record saved successfully\n") #print message that the record was saved
 
 def main(): #main function
     while True: #infinite loop to keep adding records
@@ -50,11 +41,20 @@ def main(): #main function
         print("4. Exit")
         option = input("Enter your choice: ") #get the option from the user
         if option == '1': #if the option is 1 add news
-            add_news()
+            text = input('Enter the news text: ')  # get the text for the news
+            city = input('Enter the city: ')  # get the city for the
+            add_news(text,city)
         elif option == '2': #if the option is 2 add private ad
-            add_private_ad()
+            text = input('Enter the private ad text: ')  # get the text for the private ad
+            expiration_date = input('Enter the expiration date (yyyy-mm-dd): ')  # get the expiration date
+            expiration_date = datetime.strptime(expiration_date, '%Y-%m-%d') #convert the expiration date to datetime
+            add_private_ad(text, expiration_date)
         elif option == '3': #if the option is 3 add book recommendation
-            add_book_recommendation()
+            title = input('Enter the book title: ')  # get the title of the book
+            author = input('Enter the author: ')  # get the author of the book
+            genre = input('Enter the genre: ')  # get the genre of the book
+            reason = input('What do you love about this book?: ')  # Why is so amazing this book?
+            add_book_recommendation(title, author, genre, reason)
         elif option == '4': #if the option is 4 exit the program
             break
         else:

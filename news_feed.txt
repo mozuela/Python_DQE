@@ -30,3 +30,173 @@ Private Ad--------------------------------
 Expiration date: 2025-03-01
 Days left: 29
 
+News--------------------------------------
+ news! news manually
+ in from GDL
+Publish date:  2025-02-12 11:46:42
+
+Private Ad--------------------------------
+ Locking for support engineer 
+Expiration date: 2025-02-28
+Days left: 15
+
+News--------------------------------------
+ A new park has opened in the city center.
+ in New York
+Publish date:  2025-02-13 11:07:58
+
+Private Ad--------------------------------
+ Selling a used car in excellent condition.
+Expiration date: 2023-11-01
+Days left: -471
+
+Book Recommendation------------------------
+ The Great Gatsby
+ by F. Scott Fitzgerald
+Genre: Classic
+Reason: A timeless exploration of the American Dream.
+
+News--------------------------------------
+ Heavy rain expected tomorrow.
+ in London
+Publish date:  2025-02-13 11:07:58
+
+Private Ad--------------------------------
+ Apartment for rent in downtown.
+Expiration date: 2023-10-25
+Days left: -478
+
+Book Recommendation------------------------
+ 1984
+ by George Orwell
+Genre: Dystopian
+Reason: A chilling portrayal of totalitarianism.
+
+News--------------------------------------
+ Heavy rain expected tomorrow.
+ in London
+Publish date:  2025-02-13 11:45:54
+
+Private Ad--------------------------------
+ Apartment for rent in downtown.
+Expiration date: 2023-10-25
+Days left: -478
+
+Book Recommendation------------------------
+ 1984
+ by George Orwell
+Genre: Dystopian
+Reason: A chilling portrayal of totalitarianism.
+
+News--------------------------------------
+ New museum opens in Paris.
+ in Paris
+Publish date:  2025-02-13 11:45:54
+
+Private Ad--------------------------------
+ Job opening for Python developer.
+Expiration date: 2023-11-15
+Days left: -457
+
+Book Recommendation------------------------
+ To Kill a Mockingbird
+ by Harper Lee
+Genre: Classic
+Reason: A powerful story about racial injustice.
+
+News--------------------------------------
+ A new parkcenter. has opened in the city center.
+ in New yorkyork
+Publish date:  2025-02-13 11:48:53
+
+Private Ad--------------------------------
+ Selling a condition.used car in excellent condition.
+Expiration date: 2023-11-01
+Days left: -471
+
+Book Recommendation------------------------
+ The great gatsbygatsby
+ by F. scott ffitzgeralditzgerald
+Genre: ClassicClassic
+Reason: A timelessdream. exploration of the american dream.
+
+News--------------------------------------
+ Heavy raintomorrow. expected tomorrow.
+ in LondonLondon
+Publish date:  2025-02-13 11:48:53
+
+Private Ad--------------------------------
+ Apartment downtown.for rent in downtown.
+Expiration date: 2023-10-25
+Days left: -478
+
+Book Recommendation------------------------
+ 19841984
+ by George orworwellell
+Genre: DystopianDystopian
+Reason: A chillingtotalitarianism. portrayal of totalitarianism.
+
+News--------------------------------------
+ New library opens in downtown.
+ in Chicago
+Publish date:  2025-02-13 11:53:51
+
+Private Ad--------------------------------
+ Looking for a roommate to share an apartment.
+Expiration date: 2023-11-10
+Days left: -462
+
+Book Recommendation------------------------
+ Pride and prejudice
+ by Jane austen
+Genre: Romance
+Reason: A classic tale of love and societal norms.
+
+News--------------------------------------
+ Local school wins national science competition.
+ in Boston
+Publish date:  2025-02-13 11:53:51
+
+Private Ad--------------------------------
+ Garage sale this weekend.
+Expiration date: 2023-10-21
+Days left: -482
+
+Book Recommendation------------------------
+ The catcher in the rye
+ by J.d. salinger
+Genre: Fiction
+Reason: A compelling story of teenage rebellion.
+
+News--------------------------------------
+ New bike lanes added to the city.
+ in San francisco
+Publish date:  2025-02-13 11:53:51
+
+Private Ad--------------------------------
+ Free puppies available for adoption.
+Expiration date: 2023-10-30
+Days left: -473
+
+Book Recommendation------------------------
+ The alchemist
+ by Paulo coelho
+Genre: Philosophical fiction
+Reason: An inspiring story about following your dreams.
+
+News--------------------------------------
+ City announces new recycling program.
+ in Seattle
+Publish date:  2025-02-13 11:53:51
+
+Private Ad--------------------------------
+ Part-time job available at the local cafe.
+Expiration date: 2023-11-05
+Days left: -467
+
+Book Recommendation------------------------
+ The hobbit
+ by J.r.r. tolkien
+Genre: Fantasy
+Reason: An epic adventure in middle-earth.
+
