@@ -200,3 +200,45 @@ Book Recommendation------------------------
 Genre: Fantasy
 Reason: An epic adventure in middle-earth.
 
+News--------------------------------------
+ New park opens in the city center.
+ in New york
+Publish date:  2025-02-17 16:23:24
+
+Private Ad--------------------------------
+ Selling a used car in excellent condition.
+Expiration date: 2023-11-01
+Days left: -475
+
+Book Recommendation------------------------
+ The great gatsby
+ by F. scott fitzgerald
+Genre: Classic
+Reason: A timeless exploration of the american dream.
+
+News--------------------------------------
+ Heavy rain expected tomorrow.
+ in London
+Publish date:  2025-02-17 16:23:24
+
+Private Ad--------------------------------
+ Apartment for rent in downtown.
+Expiration date: 2023-10-25
+Days left: -482
+
+Book Recommendation------------------------
+ 1984
+ by George orwell
+Genre: Dystopian
+Reason: A chilling portrayal of totalitarianism.
+
+News--------------------------------------
+ New museum opens in paris.
+ in Paris
+Publish date:  2025-02-17 16:23:24
+
+Private Ad--------------------------------
+ Job opening for python developer.
+Expiration date: 2023-11-15
+Days left: -461
+
