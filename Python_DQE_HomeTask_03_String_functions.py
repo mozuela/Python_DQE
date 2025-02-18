@@ -25,10 +25,6 @@ inital_string = """homEwork:
 """
 position_for_insert = "paragraph." #position to insert the last words after the sentence ending in paragraph
 
-def preprocess_text(text): # Convert text to lowercase and remove non-alphanumeric characters
-    text = text.lower() #convert the text to lowercase
-    words = re.findall(r'\b\w+\b', text) #
-    return words
 
 def count_whitespaces(text): #counting all whitespaces using isspace() method
     count = 0 #initialize count

@@ -16,7 +16,7 @@ WORDS_FILE_NAME = 'words_statistics.txt' #file to write the news feed
 LETTER_FILE_NAME = 'letters_statistics.txt' #file to write the news feed
 
 from datetime import datetime #import datetime module to get the current date
-from Python_DQE_HomeTask_03_String_functions import preprocess_text as cleanText #import the preprocess_text function from the previous homework
+from Python_DQE_Functions import preprocess_text as cleanText #import the preprocess_text function from the previous homework
 
 def add_news(text, city): #function to add news
     publish_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S') #get the current date

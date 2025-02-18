@@ -30,6 +30,11 @@ def normalize_text(text): #function to normalize the text
     normalized_text = ' \n'.join(normalized_sentences)  # joining the sentences back together
     return normalized_text #return the normalized text
 
+def preprocess_text(text): # Convert text to lowercase and remove non-alphanumeric characters
+    text = text.lower() #convert the text to lowercase
+    words = re.findall(r'\b\w+\b', text) #
+    return words
+
 def clean_mul(text):
     text = re.sub(r'\xa0', '', text) #removing non-breaking character/code
     sentences = text.split('\n') #splitting the text into sentences to normalize
@@ -47,7 +52,6 @@ def clean_mul(text):
 
 def main():
     clean_multiline = clean_mul(inital_string) #cleaning the text
-
     count_spaces = count_whitespaces(clean_multiline) #counting all whitespaces
     print("Initial text: \n ", inital_string) #printing the initial text
     print("Final text: \n ", clean_multiline) #printing the processed text
