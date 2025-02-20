@@ -316,3 +316,45 @@ Book Recommendation------------------------
 Genre: Classic
 Reason: A powerful story about racial injustice and moral growth.
 
+News--------------------------------------
+ New art museum opens in the city center.
+ in Chicago
+Publish date:  2025-02-20 16:10:23
+
+Private Ad--------------------------------
+ Selling a vintage record player in excellent condition.
+Expiration date: 2025-07-20
+Days left: 149
+
+Book Recommendation------------------------
+ The alchemist
+ by Paulo coelho
+Genre: Philosophical fiction
+Reason: An inspiring story about following your dreams.
+
+News--------------------------------------
+ New public park inaugurated in the suburbs.
+ in Austin
+Publish date:  2025-02-20 16:10:23
+
+Private Ad--------------------------------
+ Looking for a dog walker for weekends.
+Expiration date: 2025-08-01
+Days left: 161
+
+Book Recommendation------------------------
+ The catcher in the rye
+ by J.d. salinger
+Genre: Fiction
+Reason: A compelling story of teenage rebellion.
+
+News--------------------------------------
+ New tech hub announced in the downtown area.
+ in San francisco
+Publish date:  2025-02-20 16:10:23
+
+Private Ad--------------------------------
+ Free furniture available for pickup.
+Expiration date: 2025-06-30
+Days left: 129
+

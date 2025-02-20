@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records>
+    <record>
+        <type>News</type>
+        <text>New tech hub announced in the downtown area.</text>
+        <city>San Francisco</city>
+        <publish_date>2025-06-20 14:00:00</publish_date>
+    </record>
+    <record>
+        <type>Private Ad</type>
+        <text>Free furniture available for pickup.</text>
+        <expiration_date>2025-06-30</expiration_date>
+        <days_left>20</days_left>
+    </record>
+    <record>
+        <type>Book Recommendation</type>
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <genre>Fiction</genre>
+        <reason>A compelling story of teenage rebellion.</reason>
+    </record>
+    <record>
+        <type>News</type>
+        <text>New public park inaugurated in the suburbs.</text>
+        <city>Austin</city>
+        <publish_date>2025-06-15 11:30:00</publish_date>
+    </record>
+    <record>
+        <type>Private Ad</type>
+        <text>Looking for a dog walker for weekends.</text>
+        <expiration_date>2025-08-01</expiration_date>
+        <days_left>52</days_left>
+    </record>
+</records>

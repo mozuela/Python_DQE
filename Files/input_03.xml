@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records>
+    <record>
+        <type>News</type>
+        <text>New library opens in downtown.</text>
+        <city>Chicago</city>
+        <publish_date>2025-06-18 12:00:00</publish_date>
+    </record>
+    <record>
+        <type>Private Ad</type>
+        <text>Room available for rent in a shared apartment.</text>
+        <expiration_date>2025-07-10</expiration_date>
+        <days_left>30</days_left>
+    </record>
+    <record>
+        <type>Book Recommendation</type>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <genre>Romance</genre>
+        <reason>A classic tale of love and societal norms.</reason>
+    </record>
+    <record>
+        <type>News</type>
+        <text>Local school wins national science competition.</text>
+        <city>Boston</city>
+        <publish_date>2025-06-19 15:30:00</publish_date>
+    </record>
+    <record>
+        <type>Private Ad</type>
+        <text>Garage sale this weekend.</text>
+        <expiration_date>2025-06-21</expiration_date>
+        <days_left>2</days_left>
+    </record>
+</records>
